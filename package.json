@@ -1,7 +1,11 @@
 {
   "name": "express",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
+  "engines": {
+    "node": "16.0.0",
+    "yarn": "1.22.17"
+  },
   "license": "MIT",
   "scripts": {
     "start": "ts-node index.ts",
